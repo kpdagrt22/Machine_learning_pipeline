@@ -30,7 +30,7 @@ def train(data_path,model_path,random_state,n_estimators,max_depth):
     X=data.drop(columns=["Outcome"])
     y=data['Outcome']
 
-    mlflow.set_tracking_uri("https://dagshub.com/krishnaik06/machinelearningpipeline.mlflow")
+    mlflow.set_tracking_uri("https://dagshub.com/kpdagrt22/Machine_learning_pipeline.mlflow")
 
 
     ## start the MLFLOW run
